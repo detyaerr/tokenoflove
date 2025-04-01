@@ -1,0 +1,72 @@
+body {
+    font-family: "Playfair Display", serif; /* Classy Font */
+    background: #fff5f8;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #ff4a6e;
+}
+
+.subtitle {
+    color: #444;
+    font-size: 1.2rem;
+}
+
+.jars {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.jar {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.token-bar {
+    width: 50px;
+    height: 100px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fill {
+    width: 100%;
+    background: #ff4a6e;
+    position: absolute;
+    bottom: 0;
+}
+
+.giver-buttons button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    background: #ff90b3;
+    color: white;
+}
+
+.giver-buttons .active {
+    background: #ff4a6e;
+}
+
+.give-button {
+    background: #ff4a6e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+}
